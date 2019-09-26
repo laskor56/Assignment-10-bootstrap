@@ -1,0 +1,652 @@
+/* 𝕬𝖚𝖙𝖍𝖔𝖗 𝕴𝖓𝖋𝖔  
+𝕹𝖆𝖒𝖊: 𝕸𝖔𝖐𝖎𝖇𝖚𝖑 𝕳𝖆𝖘𝖆𝖓 𝕷𝖆𝖘𝖐𝖔𝖗
+𝕰𝖒𝖆𝖎𝖑 𝕬𝖉𝖉:𝖒𝖎𝖙𝖍𝖚𝖓𝖑𝖆𝖘𝖐𝖔𝖗օ@𝖌𝖒𝖆𝖎𝖑.𝖈𝖔𝖒 
+𝖂𝖊𝖇: 𝖍𝖆𝖛𝖊 𝖓𝖔𝖙 𝖆𝖓𝖞 𝖜𝖊𝖇𝖘𝖎𝖙𝖊
+*/ /*
+ ====𝕴𝖓𝖉𝖊𝖝==== 
+ յ.𝕳𝖔𝖒𝖊
+ շ.𝕬𝖇𝖔𝖚𝖙 𝖀𝖘 
+ Յ.𝕺𝖚𝖗 𝕬𝖕𝖕𝖗𝖔𝖈𝖍 
+ կ.𝕺𝖚𝖗 𝖂𝖔𝖗𝖐
+ Տ.𝕱𝖗𝖊𝖊 𝕮𝖔𝖓𝖘𝖚𝖑𝖙𝖆𝖙𝖎𝖔𝖓 ====== */
+
+/* Global Css */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+ 
+ 
+ .r-white{
+ 	background: #fff;
+ 	position: relative;
+ 	margin:28px 0px;
+ 	width: 100%;
+ 	float: left;
+ }
+ 
+ 
+ h4 {
+    font-size: 21px;
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+
+ /* End Global Css */
+
+
+
+
+
+
+
+/*Header start */
+
+
+header{
+	width: 100%;
+	float: left;
+	background: #f0f2f4;
+	position: fixed;
+	padding: 5px 0px;
+}
+.head{
+	text-align: right;
+
+}
+
+.head .fa.fa-mobile{
+	margin-right: 12px;
+}
+
+.head .fa.fa-envelope{
+	margin-right: 5px;
+    margin-left: 20px;
+}
+
+.head .fa.fa-facebook{
+	margin-left: 5px;
+    padding: 4px;
+    background: #1287bf;
+    color: #fff;
+}
+
+.fixed-top {
+    top: 33px!important;
+
+}
+
+.nav-head {
+    background: #fff!important;
+    padding: 20px 0px;
+}
+.navbar-nav{
+	list-style:none;
+}
+.laskor-2{
+	color: red;
+}
+.laskor-3{
+	list-style:initial;
+}
+
+
+.nav-link.js-scroll-trigger.active{
+	background: #dd4b2b;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 21px;
+    
+}
+
+
+
+.nav-item{
+	padding-right: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: black;
+}
+
+/*sec-one (Free consultation) Start*/
+.sec-one{
+	background: url(../img/bnr.jpg)center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	float: left;
+
+}
+.sec-one h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 350px;
+    font-size: 10;
+    font-size: 50px;
+}
+
+.sec-one p {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sec-one button{
+	display: block;
+    margin: 10px auto 250px;
+    color: #fff;
+    background:#f8cd53;
+    border: none;
+    padding: 8px 35px;
+    text-transform: uppercase;
+}
+
+.sec-one button:hover{
+    transform: scale(1.1);
+    background:#f8cd53;
+    background:skyblue;
+    box-shadow:3px 3px 3px gray;
+}
+
+
+
+/*sec-one (Free consultation) End*/
+
+
+
+
+/*About us Section start(sec-two)*/
+.sec-two{
+	width: 100%;
+	float: left;
+}
+
+.sec-two h2{
+	
+     text-align: center;	
+     margin-top: 100px;	
+     font-size: 36px;
+}
+.sec-two p{	
+     text-align: center;	
+     font-size: 20px;
+}
+.sec-two span{	
+     display: block;	
+     width: 45px;	
+     border-bottom: 3px solid;	
+     margin: 0 auto 40px;
+}
+
+.thr-p img{
+     display: block;
+     margin: 0 auto;
+}
+.thr-p h3{
+	font-size: 22px;
+	text-align: center;
+	padding: 10px;
+}
+.thr-p p{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 110px;
+}
+
+
+/*About us Section End(sec-two) */
+
+/*About us Section End(sec-three) */
+.sec-three{
+	width: 100%;
+	float: left;
+	background: #f3f3f3;
+	padding-bottom: 100px;
+}
+.sec-three h2{
+	
+     text-align: center;	
+     margin-top: 80px;	
+     font-size: 36px;
+}
+.sec-three .p-top {	
+     text-align: center;	
+     font-size: 20px;
+}
+.sec-three span{	
+     display: block;	
+     width: 45px;	
+     border-bottom: 3px solid;	
+     margin: 0 auto 40px;
+}
+
+/*Right Position*/
+
+.r-white .position {
+    position: absolute;
+    background: #de2b24;
+    color: #fff;
+    text-align: center;
+    top: 86px;
+    right: -10px;
+    border: 1px solid;
+    padding: 8px 25px;
+}
+
+.r-white p{
+   margin-left: 25px;
+}
+
+.rr-white{
+	background: #fff;
+	width: 100%;
+	float: left;
+}
+.rr-white h3{
+	font-size: 21px;
+    margin-top: 75px;
+    margin-right: 45px;
+    text-align: right;
+}
+
+.rr-white p{
+   margin-right:  45px;
+   text-align: right;
+}
+
+.rr-white .posi {
+    position: absolute;
+    background: #de2b24;
+    color: #fff;
+    text-align: center;
+    top: 88px;
+    left: -40px;
+    border: 1px solid;
+    padding: 8px 25px;
+}
+.img-rt{
+	height: 100%;
+	width: 100%;
+}
+/*About us Section End(sec-threeo) */
+
+
+
+/*our work Section start(sec-four)*/
+
+.sec-four{
+	width: 100%;
+	float: left;
+	background: #de2b24;
+	padding-bottom: 100px;
+}
+
+.sec-four h2{
+	
+     text-align: center;	
+     margin-top: 100px;	
+     font-size: 36px;
+     color: #fff;
+}
+.sec-four p{	
+     text-align: center;	
+     font-size: 20px;
+     color: #fff;
+}
+.sec-four span{	
+     display: block;
+     color: #fff;	
+     width: 45px;	
+     border-bottom: 3px solid;	
+     margin: 0 auto 40px;
+}
+
+/*our work Section End(sec-four)*/
+
+
+
+/*form Section start*/
+.sec-five{
+	width: 100%;
+	float: left;
+	background: #1287bf;
+}
+.sec-five h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+}
+.sec-five p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.sec-five .circle{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.sec-five h3{
+        text-align: center;
+        margin-bottom: 25px;
+}
+.sec-five .fa.fa-chevron-down {
+    padding: 15px;
+    color: #fff;
+    font-size: 40px;
+    background:transparent;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.sec-five h3{
+	text-align: center;
+    color: #fff;
+    font-size: 40px;
+
+}
+.sec-five .box{
+	padding: 25px 20px 60px;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+	background: #fff;
+	margin-bottom: 100px;
+}
+
+.sec-five .box p{
+	color: gray;
+  font-size: 12px;
+}
+.sec-five .box input {
+    background: transparent;
+    border: 1px solid gray;
+    padding: 10px 10px;
+    margin: 10px auto;
+    width: 100%;
+
+}
+.sec-five .box button{
+	color: #fff;
+    background: #de2b24;
+    border: none;
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.sec-five .box button:hover{
+    transform: scale(1.1);
+    background:gray;
+    color: black;
+    box-shadow:3px 3px 3px orange;
+}
+
+
+/*form Section end*/
+
+/*last section */
+
+.sec-l{
+	width: 100%;
+	float: left;
+	background: #2a2a2a;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+.sec-l h1{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+
+.sec-l .icons{
+	padding:15px 0px;
+
+}
+
+
+
+.icons ul{
+    list-style: none;
+}
+
+.icons ul li {
+    display: inline-block;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid gray;
+}
+.icons ul a{
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+.sec-l p{
+	color: #fff;
+	margin: 5px auto;
+}
+
+.sec-l input {
+    background: #515151;
+    width: 415px;
+    padding: 10px 12px;
+    border: 1px solid gray;
+}
+
+.sec-l button {
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid gray;
+    padding: 6px 12px;
+    margin: 30px auto 0px;
+}
+
+footer{
+	width: 100%;
+	float: left;
+	padding:25px;
+	background: #515151;
+}
+footer p{
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+
+/* Media Query START*/
+
+@media (min-width: 320px) and (max-width: 500px){
+
+/*Section one*/
+.nav-head .fa.fa-bars {
+    font-size:45px;
+    margin-right: 0px;
+}
+.nav-link.js-scroll-trigger.active {
+    display: block;
+    margin: 0 56%;
+    width: 37%;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    text-align: right;
+    margin-right: 11%;
+}
+.logo {
+    display: block;
+    margin-left: 85%;
+    margin-top: 15%;
+    height: 35px;
+}
+
+/*Section one*/
+
+.sec-one h2 {
+    text-align: center;
+    margin-top: 45%;
+    font-size: 10;
+    font-size: 40px;
+}
+
+.sec-one p {
+    font-size: 20px;
+}
+
+.sec-one button {
+    margin: 10px auto 132px;
+    padding: 5px 16px;
+}
+
+/*About us Section*/
+.thr-p p {
+    font-size: 12px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+
+/*our Approch Section*/
+.sec-three h2 {
+    margin-top: 11%;
+    font-size: 30px;
+}
+.sec-three .p-top {
+    font-size: 16px;
+}
+
+.r-white .imgg {
+    height: 100%;
+    width: 100%;
+}
+h4 {
+    font-size: 18px;
+    margin-top: 26px;
+}
+.r-white .position {
+    top: 46px;
+    right: -30px;
+    padding: 0px 15px;
+}
+.r-white p {
+    font-size: 11px;
+}
+.rr-white h3 {
+    font-size: 17px;
+    margin-top: 33px;
+}
+.rr-white p {
+    font-size: 10px;
+}
+.rr-white .posi {
+    top: 50px;
+    left: -32px;
+    border: 1px solid;
+    padding: 0px 15px;
+}
+
+/*our work Section*/
+.sec-four h2 {
+    margin-top: 33px;
+    font-size: 30px;
+}
+.sec-four p {
+    font-size: 16px;
+}
+.padd{
+    padding:0 5%;
+}
+
+/*form Section*/
+
+.sec-five h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 11%;
+    font-size: 31px;
+}
+
+.sec-five .fa.fa-chevron-down {
+    font-size: 16px;
+}
+
+.sec-five .box {
+    width: 70%;
+    /* padding-bottom: 6%; */
+}
+.sec-five .box input {
+    padding: 7px 10px;
+}
+
+.sec-five .box button {
+    padding: 9px;
+    font-size: 10px;
+}
+
+
+
+/*last section*/
+
+.sec-l {
+    padding: 60px 0px;
+}
+.sec-l h1 {
+    font-size: 26px;
+}
+.icons ul li {
+    padding: 7px
+}
+.sec-l p {
+    text-align: center;
+    padding: 0 14%;
+}
+
+.sec-l input {
+    width: 310px;
+    padding: 5px 10px;
+}
+
+.sec-l button {
+    padding: 4px 8px
+}
+
+/*footer part*/
+footer p {
+    font-size: 14px;
+}
+}
+
+
+.nav-head{
+    background-color: #edeff1!important;
+    padding: 20px 0px;    
+}
+
+.nav-link {
+    color: black;
+    padding: 0px 16px;
+    font-size: 18px;
+}
+
+
+.nav-link.js-scroll-trigger.active{
+    background: red;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 21px;
+}
